@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@1,500&display=swap');
+@import url('http://fonts.cdnfonts.com/css/anurati');  
+@import url('http://fonts.cdnfonts.com/css/elianto');
+@import url('http://fonts.cdnfonts.com/css/neogrey');
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kelly+Slab&display=swap');
+*{
+    margin: 0;
+    padding: 0;  
+}
+div {
+    display: block;
+}
+a{
+    height: auto;
+    width: 200px;
+}
+.container-top {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    height: 75px;
+    align-items: center;
+    padding-top: 10px;
+    border-bottom: 1px solid;
+}
+.container-top ul {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 55px;
+    align-items:center;
+}
+.container-top ul li {
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Kelly Slab', cursive;
+    font-size: 25px
+}
+.container-top ul li a {
+    text-decoration: none;
+    color: black;
+    text-shadow: 2px 2px 5px rgb(50, 93, 187);
+}
+.container-top ul li a img{
+    margin: 0 auto;
+    width: 80px;
+    height: 80px;
+}
+.container-mid{
+    background: url(../img/753645ed4808988db70b84c6a44c83c1.jpg);
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid;
+}
+.container-mid-btn {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.container-mid-btn h1 {
+    font-family: 'Elianto', sans-serif;
+    font-size: 80px;
+    color: #273b75;
+}
+.container-mid-btn h2 {
+    font-family: 'Neogrey', sans-serif;
+    font-size: 50px;
+    color: #ffff;
+}
+.container-mid-btn a {
+    height: 43px;
+    width: 91px;
+    text-decoration: none;
+    margin: 0 auto;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-mid-btn a div {
+    color: #ffff;
+    font-weight: normal;
+    font-family: 'Alegreya', serif;
+    font-size: 20px;
+}
+.container-mid a div {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #1e54b8;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    text-shadow: 4px 4px 7px rgb(0, 0, 0);
+}
+.container-mid a div span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.container-mid a div span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+.container-mid a div:hover span {
+    padding-right: 25px;
+}
+.container-mid a div:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+.container-bot {
+    background-color: #FFFFFF;
+    opacity: 0.5;
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+.footer {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    line-height: 1.3;
+}
+.footer ul {
+    display: inline-grid;
+    grid-auto-flow: row;
+    grid-gap: 24px;
+    justify-items: center;
+    margin: auto;
+  }
+.footer ul {
+      grid-auto-flow: column;
+}
+.footer ul a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: 'Iceland', cursive;
+    font-size: 30px;
+}
+.footer a:hover {
+    box-shadow: inset 0 -1.2em 0 hsla(0, 0%, 100%, 0.4);
+}
+.footer li:last-child {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+} 
+
+  
+
+
+
+
+    
+
